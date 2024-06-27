@@ -151,9 +151,9 @@ sr.reveal('.contact__data',  {origin: 'left'});
 
 //sr.reveal('.headline', {interval: 100});
 
-sr.reveal('.projects__card', {interval: 100});
-sr.reveal('.services__content', {interval: 100});
-sr.reveal('.services__container', {interval: 100});
+sr.reveal('.projects__card', {interval: 0});
+sr.reveal('.services__content', {interval: 0});
+sr.reveal('.services__container', {interval: 0});
 
-sr.reveal('.services__container_interns', {delay: 100});
-sr.reveal('.services__card', {delay: 100});
+sr.reveal('.services__container_interns', {delay: 0});
+sr.reveal('.services__card', {delay: 0});
