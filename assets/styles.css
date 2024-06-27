@@ -1354,6 +1354,9 @@ body.dark-theme {
   .home__social-link {
     font-size: 1.5rem;
     padding: .5rem;
+    display: inline-block; /* Assure que l'icône n'occupe que l'espace nécessaire */
+    max-width: 50px; /* Limite la largeur de l'icône */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la */
   }
 
   .about__container {
