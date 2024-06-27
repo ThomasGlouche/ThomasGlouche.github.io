@@ -13,6 +13,9 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/styles.css">
 
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/scrollreveal.min.js"></script>
+
       <title>Thomas Glouche - Portfolio</title>
    </head>
    <body style="height: 100%;">
@@ -35,7 +38,7 @@
             <div class="nav__menu" id="nav-menu">
                <span class="nav__title">Menu</span>
 
-               <h3 class="nav__name">Maxime</h3>
+               <h3 class="nav__name">Thomas</h3>
 
                <ul class="nav__list">
                   <li class="nav__item">
@@ -110,7 +113,7 @@
                      </a>
                      ------------------------------------------------------------------------------------------>
 
-                     <a href="https://www.linkedin.com/in/maxime-mercier-275264272/" target="_blank" class="home__social-link">
+                     <a href="https://www.linkedin.com/in/thomas-glouche/" target="_blank" class="home__social-link">
                         <i class="ri-linkedin-box-line"></i>
                      </a>
 
@@ -119,7 +122,9 @@
 
                <div class="home__info" data-sr-id="5" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
                   <p class="home__description">
-                     <b>Etudiant à l'école d'ingénieur informatique ESIEA </b>, j'ai pu acquérir des connaissances solides sur l'informatique.
+                     <b>Etudiant à l'école d'ingénieur informatique ESIEA. </b>
+                      J'effectue cette formation en <b>apprentissage.</b>
+                      Cette formation d’ingénieur me permet d’acquérir les compétences nécessaires à un ingénieur du numérique.
                   </p>
 
                   <a href="#about" class="home__scroll">
@@ -159,26 +164,33 @@
                <div class="about__info" data-sr-id="7" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
                   <p class="about__description">
                      Passionné par l'informatique en général, j'ai voulu m'impliquer davantage dans ce domaine en
-                      choisissant un cursus adapté. J'ai d'abord obetnu un DUT.
+                      choisissant un cursus adapté. J'ai d'abord <b>obtenu un DUT</b>.
                       Puis, je me suis tourné vers <b>l'apprentissage.</b>
-Actuellement apprenti en <b>ingénieur informatique à l'ESIEA et avec l'entreprise RIOU Glass</b>,
-                     je poursuis mes études afin d'obtenir un <b>Bachelor SYSOPS à l'EPSI</b> suivi d'un <b>Mastère dans la Cybersécurité.</b>
+                      Actuellement, je poursuis mes études en tant  qu'apprenti en
+                      <b>ingénieur informatique à l'ESIEA</b> et au sein <b>l'entreprise RIOU Glass</b>.
                   </p>
 
                   <ul class="about__list">
                      <li class="about__item">
-                        <b>Mes compétences sont :</b> HTML, CSS, Cisco, HP, Support informatique, Windows Server, Linux, Windows.
+                        <b>Mes compétences sont :</b>
+                         Concevoir et développer les programmes et applications informatiques,
+                         Analyser les besoins du client,
+                         Établir un cahier des charges,
+                         Déterminer les phases et procédures de tests techniques et
+                         fonctionnels de programmes et applications informatiques.
                      </li>
                   </ul>
 
                   <div class="about__buttons">
-                     <a href="https://maximemercier.me/assets/pdf/CV.pdf" target="_blank" class="button">
-                        <i class="ri-presentation-line"></i> Curriculum Vitae
+                     <a href="assets/CV-ThomasGlouche.pdf" target="_blank" class="button">
+                        <i class="ri-presentation-line"></i> CV
                      </a>
 
+                      <!--
                      <a href="https://maximemercier.me/assets/pdf/competences.pdf" target="_blank" class="button">
                         <i class="ri-presentation-line"></i> Tableau des compétences
                      </a>
+                     -->
 
                      <a href="#contact" class="button">
                         <i class="ri-send-plane-line"></i> Contactez-moi
@@ -199,8 +211,8 @@ Actuellement apprenti en <b>ingénieur informatique à l'ESIEA et avec l'entrepr
             </h2>
 
             <div class="services__container container grid">
-               <article class="services__card" data-sr-id="11" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
-                  <a href="https://maximemercier.me/assets/pdf/certification/ANSSI/Certificat%20MOOC%20ANSSI%20-%20Maxime%20MERCIER.pdf" target="_blank">
+               <article class="services__card" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
+                  <a href="assets/certificate_toeic.pdf" target="_blank">
                   <div class="services__border"></div>
 
                   <div class="services__content">
@@ -209,21 +221,17 @@ Actuellement apprenti en <b>ingénieur informatique à l'ESIEA et avec l'entrepr
                         <i class="ri-layout-4-line"></i>
                      </div>
 
-                     <h2 class="services__title">MOOC de SecNumacadémie</h2>
+                     <h2 class="services__title">Certificat TOEIC</h2>
 
                      <p class="services__description">
-                        Le MOOC est un outil supplémentaire pour
-sensibiliser aux enjeux de la sécurité du numérique. Celle-ci repose
-dans de nombreux cas sur la mise en place de mesures simples et
-                         des bonnes pratiques dans la sphère
-professionnelle comme dans la sphère privée.
+                         Les tests Test of English for International Communication sont des certifications standardisées
+                         permettant d'évaluer le niveau d'anglais des locuteurs non anglophones à l'écrit et à l'oral.
                      </p>
                   </div>
                   </a>
                </article>
 
-
-               <article class="services__card" data-sr-id="12" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
+               <article class="services__card" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
                   <a href="https://maximemercier.me/assets/pdf/certification/RGPD/certificat_RGPD_MaximeMercier.pdf" target="_blank">
                      <div class="services__border"></div>
 
@@ -233,7 +241,7 @@ professionnelle comme dans la sphère privée.
                            <i class="ri-layout-4-line"></i>
                         </div>
 
-                        <h2 class="services__title">RGPD</h2>
+                        <h2 class="services__title">DUT Informatique</h2>
 
                         <p class="services__description">
                            Le RGPD encadre le traitement des données
@@ -247,7 +255,7 @@ développement du commerce en ligne…).
                   </a>
                </article>
 
-               <article class="services__card" data-sr-id="13" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
+               <article class="services__card" data-sr-id="13" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
                   <a href="https://maximemercier.me/assets/pdf/certification/Google/IT_Support.pdf" target="_blank">
                   <div class="services__border"></div>
 
@@ -257,7 +265,7 @@ développement du commerce en ligne…).
                         <i class="ri-layout-4-line"></i>
                      </div>
 
-                     <h2 class="services__title">Google IT Support</h2>
+                     <h2 class="services__title">Summer program</h2>
 
                      <p class="services__description">
                         Les personnes qui obtiennent le Google IT
@@ -285,7 +293,7 @@ notamment le dépannage et le service client, le réseautage, les systèmes
             </h2>
 
             <div class="services__container_interns container grid">
-               <article class="services__card" data-sr-id="14" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
+               <article class="services__card" data-sr-id="14" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
                   <a href="https://maximemercier.me/assets/pdf/Rapport_de_stage/20240108-RDS-LeHavreSeineMetropole-MercierMaxime.pdf" target="_blank">
                      <div class="services__border"></div>
 
@@ -295,7 +303,7 @@ notamment le dépannage et le service client, le réseautage, les systèmes
                            <i class="ri-layout-4-line"></i>
                         </div>
 
-                        <h2 class="services__title">Le Havre Seine Métropole</h2>
+                        <h2 class="services__title">Artelia Digital Solutions</h2>
 
                         <p class="services__description">
                            Stage de 2e année BTS SIO au pôle Analyse et résolutions.
@@ -310,7 +318,7 @@ informatique.
                   </a>
                </article>
 
-               <article class="services__card" data-sr-id="15" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
+               <article class="services__card" data-sr-id="15" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -60, 0, 1);">
                   <a href="https://maximemercier.me/assets/pdf/Rapport_de_stage/202306020-RDS-HaropaPort-MercierMaxime.pdf" target="_blank">
                   <div class="services__border"></div>
 
@@ -320,7 +328,7 @@ informatique.
                         <i class="ri-layout-4-line"></i>
                      </div>
 
-                     <h2 class="services__title">Haropa Port</h2>
+                     <h2 class="services__title">RIOU Glass</h2>
 
                      <p class="services__description">
                         Stage de 1re année BTS SIO au service Helpdesk.
@@ -928,7 +936,7 @@ applications,
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
             <div class="contact__container grid">
-               <div class="contact__data" data-sr-id="8" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -60, 0, 0, 1);">
+               <div class="contact__data" data-sr-id="8" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -60, 0, 0, 1);">
                   <h2 class="section__title-2">
                      <span>Contactez-moi.</span>
                   </h2>
@@ -944,7 +952,7 @@ applications,
                   <div class="geometric-box"></div>
                </div>
 
-               <div class="contact__mail" data-sr-id="3" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 60, 0, 0, 1);">
+               <div class="contact__mail" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 60, 0, 0, 1);">
                   <h2 class="contact__title">
                      Envoyez-moi un message
                   </h2>
@@ -980,7 +988,7 @@ applications,
                   </form>
                </div>
 
-               <div class="contact__social" data-sr-id="9" style="visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -60, 0, 0, 1);">
+               <div class="contact__social" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -60, 0, 0, 1);">
                   <img src="assets/curved-arrow.svg" alt="" class="contact__social-arrow">
 
                   <div class="contact__social-data">
@@ -1005,7 +1013,7 @@ applications,
                         </a>
                   ------------------------------------------------------------------------------------------>
 
-                        <a href="https://www.linkedin.com/in/maxime-mercier-275264272/" class="contact__social-link" target="_blank">
+                        <a href="https://www.linkedin.com/in/thomas-glouche/" class="contact__social-link" target="_blank">
                            <i class="ri-linkedin-box-line"></i>
                         </a>
                      </div>
@@ -1015,7 +1023,7 @@ applications,
          </section>
       </main>
 
-      <!--============================= FOOTER ==========================
+      <!--============================= FOOTER ==========================-->
       <footer class="footer">
          <div class="footer__container container grid">
             <ul class="footer__links">
@@ -1031,14 +1039,16 @@ applications,
                   <a href="#projects" class="footer__link">Projects</a>
                </li>
             </ul>
-
+            <span> </span>
+             <!--
             <span class="footer__copy">
                &#169; All Rights Reserved By
-               <a href="#">Bedimcode.</a>
+               <a href="#">.</a>
             </span>
+            -->
          </div>
       </footer>
-      ============================= FOOTER ===========================-->
+     <! ============================= FOOTER ===========================-->
 
       <!--========== SCROLL UP ==========-->
       <a href="#" class="scrollup" id="scroll-up">
@@ -1047,6 +1057,7 @@ applications,
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src="assets/scrollreveal.min.js"></script>
+
 
       <!--=============== EMAIL JS ===============-->
       <script src="assets/email.min.js"></script>
